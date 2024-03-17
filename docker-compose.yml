@@ -1,9 +1,7 @@
 version: '1.0'
 services:
     web:
-      build:
-        context: .      
-        dockerfile: Dockerfile.dev
+      build: .
 
       volumes:
         - /app/node_modules
